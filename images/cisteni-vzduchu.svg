@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="79" height="66" viewBox="0 0 79 66">
+  <g id="cisteni-vzduchu" transform="translate(191 -2814)">
+    <rect id="Rectangle_27" data-name="Rectangle 27" width="79" height="66" transform="translate(-191 2814)" fill="none"/>
+    <path id="Path_93" data-name="Path 93" d="M79.547,32.422l5.337,5.337H73.526c-4.8,0-8.024,1.559-10.87,2.935-2.166,1.047-3.878,1.874-5.93,1.874-2.083,0-3.941-.885-6.094-1.909-2.854-1.359-6.089-2.9-10.708-2.9v4.509c3.6,0,6.11,1.2,8.769,2.461,2.424,1.156,4.93,2.347,8.032,2.347,3.085,0,5.529-1.181,7.891-2.323,2.529-1.222,5.143-2.485,8.908-2.485H84.883L79.547,47.6l3.189,3.189,10.78-10.78-10.78-10.78Z" transform="translate(-230.924 2792.186)" fill="#ffcd5a"/>
+    <path id="Path_94" data-name="Path 94" d="M79.547,129.388l5.337,5.337H73.526c-4.8,0-8.024,1.559-10.87,2.935-2.166,1.047-3.878,1.874-5.93,1.874-2.083,0-3.941-.885-6.094-1.91-2.854-1.359-6.089-2.9-10.708-2.9v4.509c3.6,0,6.11,1.2,8.769,2.461,2.424,1.156,4.931,2.348,8.032,2.348,3.085,0,5.529-1.181,7.891-2.323,2.529-1.222,5.143-2.486,8.908-2.486H84.883l-5.337,5.337,3.19,3.19,10.78-10.78L82.736,126.2Z" transform="translate(-230.924 2722.547)" fill="#ffcd5a"/>
+    <rect id="Rectangle_29" data-name="Rectangle 29" width="4.509" height="13.766" transform="translate(-175.886 2843.458)" fill="#ffcd5a"/>
+    <rect id="Rectangle_30" data-name="Rectangle 30" width="4.509" height="13.766" transform="translate(-175.886 2816.13)" fill="#ffcd5a"/>
+    <rect id="Rectangle_31" data-name="Rectangle 31" width="4.509" height="6.883" transform="translate(-175.886 2870.987)" fill="#ffcd5a"/>
+  </g>
+</svg>

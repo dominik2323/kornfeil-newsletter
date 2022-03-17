@@ -1,0 +1,491 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <style>
+      /* perex */
+      .perex h2 {
+        margin-bottom: 30px;
+      }
+      .perex .btn {
+        margin-top: 30px;
+      }
+
+      /* number */
+      .number span {
+        font-size: 60px;
+        letter-spacing: -0.03em;
+        font-weight: bold;
+      }
+      .number p {
+        font-size: 18px;
+      }
+
+      /* icon */
+      .icon img {
+        width: 80px;
+        display: block;
+      }
+      .icon h3 {
+        text-transform: uppercase;
+        font-size: 16px;
+        font-weight: bold;
+        max-width: 80%;
+      }
+      .icon p {
+        font-size: 16px;
+        max-width: 80%;
+      }
+      .icon td:nth-child(2) {
+        padding: 30px 0;
+      }
+
+      /* link */
+      .link {
+        font-size: 14px;
+        color: black;
+        text-decoration: none;
+        display: block;
+      }
+      .link.link-big {
+        font-size: 21px;
+        font-weight: bold;
+      }
+
+      .page-header {
+        font-size: 50px;
+        letter-spacing: -0.03em;
+        margin-top: 30px;
+        font-weight: 900;
+      }
+      .section-header {
+        font-size: 14px;
+        font-weight: bold;
+        text-transform: uppercase;
+        letter-spacing: 0.02em;
+      }
+      .perex {
+        font-size: 30px;
+        max-width: 90%;
+      }
+      .btn {
+        background-color: black;
+        color: white;
+        padding: 15px 20px;
+        display: inline-block;
+        font-size: 13px;
+        letter-spacing: 0.05em;
+        text-transform: uppercase;
+        text-decoration: none;
+      }
+      /* globals */
+      * {
+        box-sizing: border-box;
+        font-family: Arial, Helvetica, sans-serif;
+      }
+      img {
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+      }
+      .va-t {
+        vertical-align: top;
+      }
+      .va-b {
+        vertical-align: bottom;
+      }
+      .va-c {
+        vertical-align: center;
+      }
+      .mt10 {
+        margin-top: 10px;
+      }
+      .mt30 {
+        margin-top: 30px;
+      }
+      .mt60 {
+        margin-top: 60px;
+      }
+      .mr5 {
+        margin-right: 5px;
+      }
+      .mb30 {
+        margin-bottom: 30px;
+      }
+      .mb50 {
+        margin-bottom: 50px;
+      }
+      .mr10 {
+        margin-right: 10px;
+      }
+      .pt0 {
+        padding-top: 0 !important;
+      }
+      .p50 {
+        padding: 50px;
+      }
+      .pb50 {
+        padding-bottom: 50px;
+      }
+      .pt20 {
+        padding-top: 20px;
+      }
+      .pb30 {
+        padding-bottom: 30px;
+      }
+      .pt30 {
+        padding-top: 30px;
+      }
+      .pt50 {
+        padding-top: 50px;
+      }
+      .pb20 {
+        padding-bottom: 20px;
+      }
+      .primary {
+        color: #ffcd5a;
+      }
+      .black {
+        color: #000;
+      }
+      .white {
+        color: white;
+      }
+      .bb {
+        border-bottom: 1px solid #000;
+      }
+
+      /* containers */
+      .layout {
+        background-color: #ccc;
+        padding: 60px 0;
+      }
+      .body {
+        max-width: 600px;
+        min-width: 300px;
+        margin: auto;
+      }
+      .content {
+        background-color: white;
+      }
+      .hero-logo {
+        width: 180px;
+      }
+      .socials {
+        float: right;
+      }
+      .socials img {
+        width: 30px;
+        height: 30px;
+      }
+      .hero {
+        width: 100%;
+        height: 700px;
+        background-image: url("https://mcusercontent.com/06db183f8c0ab3c2fe6bdcd9f/images/34943eeb-61a6-3704-8a04-01be96fbe0a4.jpg");
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: cover;
+      }
+      .hero td {
+        padding: 50px;
+      }
+      .intro {
+        /* padding: 100px 0; */
+      }
+      .eco {
+        background-image: url("https://mcusercontent.com/06db183f8c0ab3c2fe6bdcd9f/images/78469c2a-67fe-431a-67e5-4e7dfd5b5ffc.jpg");
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: cover;
+        height: 700px;
+      }
+      .eco .perex {
+        font-weight: bold;
+        padding: 30px 0;
+        font-size: 40px;
+      }
+      .cta {
+        background-image: url("https://mcusercontent.com/06db183f8c0ab3c2fe6bdcd9f/images/dda70ed1-7498-d29b-06fd-31d4ac6d0478.jpg");
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: cover;
+        height: 700px;
+      }
+
+      .footer {
+        width: 100%;
+        background-color: #ffcd5a;
+      }
+
+      .footer .claim {
+        width: 150px;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="layout">
+      <div class="body">
+        <table class="hero">
+          <tbody>
+            <tr>
+              <td class="va-t">
+                <a href="https://kornfeildeo.com"
+                  ><img
+                    class="hero-logo"
+                    src="https://mcusercontent.com/06db183f8c0ab3c2fe6bdcd9f/images/ba385edb-21f2-4eda-7710-451061191979.png"
+                /></a>
+              </td>
+              <td class="va-t">
+                <div class="socials">
+                  <a href="https://facebook.com/kornfeilcz"
+                    ><img
+                      class="mr5"
+                      src="https://mcusercontent.com/06db183f8c0ab3c2fe6bdcd9f/images/3410e6b5-8fc3-8064-4106-7823d0308da3.png" /></a
+                  ><a href="https://instagram.com/kornfeil_bakeryovens">
+                    <img
+                      src="https://mcusercontent.com/06db183f8c0ab3c2fe6bdcd9f/images/0fd847a6-0460-8d3f-a164-5083e78800b2.png"
+                  /></a>
+                </div>
+              </td>
+            </tr>
+            <tr>
+              <td class="va-b" colspan="2">
+                <span>KORNFEIL DEODORANT</span>
+                <h1 class="page-header">
+                  95% využití odtahové páry v pekárnách
+                </h1>
+              </td>
+            </tr>
+          </tbody>
+        </table>
+        <div class="content p50">
+          <table class="intro">
+            <tbody>
+              <tr>
+                <td>
+                  <div class="perex">
+                    <h2 class="section-header primary">nová technologie</h2>
+                    <p class="perex">
+                      Využijte na maximum energii odtahové páry pro ohřev teplé
+                      vody v pekárně.
+                    </p>
+                    <a class="btn" href="https://kornfeildeo.com"
+                      >Přejít na produkt</a
+                    >
+                  </div>
+                </td>
+              </tr>
+            </tbody>
+          </table>
+          <table class="number mt60">
+            <tbody>
+              <tr>
+                <td>
+                  <span class="primary">95 %</span>
+                  <p>Využití vstupních energií</p>
+                </td>
+              </tr>
+            </tbody>
+          </table>
+          <table class="number mt30">
+            <tbody>
+              <tr>
+                <td>
+                  <span class="primary">1 000 l</span>
+                  <p>Vody ohřejete na 55°C z 90 kg páry</p>
+                </td>
+              </tr>
+            </tbody>
+          </table>
+          <table class="mt60">
+            <tbody>
+              <tr>
+                <td>
+                  <img
+                    src="https://mcusercontent.com/06db183f8c0ab3c2fe6bdcd9f/images/5d96c7b2-65ce-f544-f726-488be7e936d3.png"
+                  />
+                  <div class="perex mt60">
+                    <h2 class="section-header black">princip</h2>
+                    <p class="primary">
+                      Kornfeil Deodorant je zařízení na čištění odtahové páry a
+                      rekuperaci tepla, které využívá jinak nevyužitou odpadní
+                      energii pekárny na maximum.
+                    </p>
+                    <p class="mt30">
+                      Zároveň eliminuje typický zápach pekáren, který dosud
+                      bránil výstavbě nový projektů v městských aglomeracích.
+                    </p>
+                  </div>
+                </td>
+              </tr>
+            </tbody>
+          </table>
+          <table class="mt60">
+            <tbody>
+              <tr class="icon">
+                <td class="va-c">
+                  <img
+                    class="mr10"
+                    src="https://mcusercontent.com/06db183f8c0ab3c2fe6bdcd9f/images/c809ee05-1d82-f2c1-a506-34415076a50b.png"
+                  />
+                </td>
+                <td class="va-c">
+                  <h3 class="primary">Rekuperace tepla</h3>
+                  <p class="mt10">
+                    Během procesu pečení vzniká obrovské množství energie, které
+                    je možné následně znovu využít.
+                  </p>
+                </td>
+              </tr>
+              <tr class="icon">
+                <td class="va-c">
+                  <img
+                    class="mr10"
+                    src="https://mcusercontent.com/06db183f8c0ab3c2fe6bdcd9f/images/55c2edce-e0bc-e118-c054-e932ec53386a.png"
+                  />
+                </td>
+                <td class="va-c">
+                  <h3 class="primary">
+                    Čištění vzduchu a eliminace zápachu z pece
+                  </h3>
+                  <p class="mt10">Eliminace typického zápachu pekárny</p>
+                </td>
+              </tr>
+              <tr class="icon">
+                <td class="va-c">
+                  <img
+                    class="mr10"
+                    src="https://mcusercontent.com/06db183f8c0ab3c2fe6bdcd9f/images/b87a5dbb-7cf4-e521-1f2b-aa1352b86890.png"
+                  />
+                </td>
+                <td class="va-c">
+                  <h3 class="primary">Ochrana životního prostředí</h3>
+                  <p class="mt10">
+                    Díky odstranění organických látek z odtahové páry odchází z
+                    pekárny pouze teplý a vlhký vzduch, který nezatěžuje životní
+                    prostředí.
+                  </p>
+                </td>
+              </tr>
+              <tr class="icon">
+                <td class="va-c">
+                  <img
+                    class="mr10"
+                    src="https://mcusercontent.com/06db183f8c0ab3c2fe6bdcd9f/images/5f7dde79-71ad-6122-e10b-1fa6e21fd260.png"
+                  />
+                </td>
+                <td class="va-c">
+                  <h3 class="primary">
+                    Přirozené napojení do stávající infrastruktury
+                  </h3>
+                  <p class="mt10">
+                    Zařízení Kornfeil DEODORANT lze napojit na libovolnou
+                    pásovou pec.
+                  </p>
+                </td>
+              </tr>
+              <tr class="icon">
+                <td class="va-c">
+                  <img
+                    class="mr10"
+                    src="https://mcusercontent.com/06db183f8c0ab3c2fe6bdcd9f/images/ebd5a50e-b37a-b967-25d2-5437068c0286.png"
+                  />
+                </td>
+                <td class="va-c">
+                  <h3 class="primary">Řešení na míru Vaší pekárně</h3>
+                  <p class="mt10">
+                    Každý energetický projekt zpracujeme individuálně.
+                  </p>
+                </td>
+              </tr>
+              <tr class="icon">
+                <td class="va-c">
+                  <img
+                    class="mr10"
+                    src="https://mcusercontent.com/06db183f8c0ab3c2fe6bdcd9f/images/1dab33e0-cf55-6150-6a7b-2632a6f32415.png"
+                  />
+                </td>
+                <td class="va-c">
+                  <h3 class="primary">Pekárna s jedním komínem</h3>
+                  <p class="mt10">
+                    Díky napojení celého energetického systému do zařízení
+                    Kornfeil DEODORANT pekárna potřebuje pouze jeden odtahový
+                    komín.
+                  </p>
+                </td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+        <table class="cta">
+          <tbody>
+            <tr>
+              <td class="p50">
+                <h3>Zjistěte, kolik můžete ušetřit</h3>
+                <p class="perex mt30">
+                  Pro získání nabídky kontaktujte naše obchodní zástupce, kteří
+                  s Vámi proberou všechny detaily.
+                </p>
+                <a class="btn mt30" href="https://kornfeildeo.com"
+                  >Zjistit úsporu</a
+                >
+              </td>
+            </tr>
+          </tbody>
+        </table>
+        <table class="eco">
+          <tbody>
+            <tr>
+              <td class="p50">
+                <p class="perex white">I vaše pekárna může být ekologická</p>
+                <p class="perex white">
+                  Konec neefektivnímu plýtvání nevyužité energie
+                </p>
+              </td>
+            </tr>
+          </tbody>
+        </table>
+        <table class="footer">
+          <tbody>
+            <tr>
+              <td class="va-t p50">
+                <a href="https://kornfeildeo.com">
+                  <img
+                    class="claim mb50"
+                    src="https://mcusercontent.com/06db183f8c0ab3c2fe6bdcd9f/images/f892a241-ca3e-4bde-bba3-00340c20eb21.png"
+                /></a>
+              </td>
+              <td class="va-t p50">
+                <div class="socials">
+                  <a href="https://facebook.com/kornfeilcz"
+                    ><img
+                      class="mr5"
+                      src="https://mcusercontent.com/06db183f8c0ab3c2fe6bdcd9f/images/3410e6b5-8fc3-8064-4106-7823d0308da3.png" /></a
+                  ><a href="https://instagram.com/kornfeil_bakeryovens">
+                    <img
+                      src="https://mcusercontent.com/06db183f8c0ab3c2fe6bdcd9f/images/0fd847a6-0460-8d3f-a164-5083e78800b2.png"
+                  /></a>
+                </div>
+              </td>
+            </tr>
+            <tr>
+              <td class="p50 pb30 pt0 bb" colspan="2">
+                <a class="link link-big" href="https://kornfeildeo.com"
+                  >www.kornfeildeo.com</a
+                ><a class="link link-big mt10 mb30" href="https://kornfeil.com"
+                  >www.kornfeil.com</a
+                >
+              </td>
+            </tr>
+            <tr>
+              <td class="p50 pt30">
+                <div>
+                  <a class="link" href="#">Odhlásit z odběru newsletterů </a>
+                </div>
+              </td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+    </div>
+  </body>
+</html>

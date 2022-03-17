@@ -1,0 +1,100 @@
+doctype html
+html(lang="en")
+  head
+    meta(charset="UTF-8")
+    meta(http-equiv="X-UA-Compatible", content="IE=edge")
+    meta(name="viewport", content="width=device-width, initial-scale=1.0")
+    link(rel="stylesheet", href="index.css")
+    link(rel="stylesheet", href="elements.css")
+    link(rel="stylesheet", href="components.css")
+  body 
+    div.layout
+      div.body
+        table.hero
+          tbody
+            tr 
+              td(class="va-t")
+                a(href="https://kornfeildeo.com")
+                  img(src="https://mcusercontent.com/06db183f8c0ab3c2fe6bdcd9f/images/ba385edb-21f2-4eda-7710-451061191979.png", class="hero-logo")
+              td.va-t
+                div.socials
+                  a(href="https://facebook.com/kornfeilcz")
+                    img(src="https://mcusercontent.com/06db183f8c0ab3c2fe6bdcd9f/images/3410e6b5-8fc3-8064-4106-7823d0308da3.png", class="mr5")
+                  a(href="https://instagram.com/kornfeil_bakeryovens")                  
+                    img(src="https://mcusercontent.com/06db183f8c0ab3c2fe6bdcd9f/images/0fd847a6-0460-8d3f-a164-5083e78800b2.png")
+            tr 
+              td(colspan="2", class="va-b")
+                span KORNFEIL DEODORANT
+                h1.page-header 95% využití odtahové páry v pekárnách
+        div(class="content p50")
+          table.intro
+            tbody
+              tr 
+                td
+                  div.perex
+                    h2(class="section-header primary") nová technologie
+                    p.perex Využijte na maximum energii odtahové páry pro ohřev teplé vody v pekárně.
+                    a(class="btn", href="https://kornfeildeo.com") Přejít na produkt
+          table(class="number mt60")
+            tbody
+              tr 
+                td 
+                  span.primary 95 %
+                  p Využití vstupních energií
+          table(class="number mt30")
+            tbody
+              tr 
+                td 
+                  span.primary 1 000 l
+                  p Vody ohřejete na 55°C z 90 kg páry
+          table(class="mt60")
+            tbody
+              tr 
+                td 
+                  img(src="https://mcusercontent.com/06db183f8c0ab3c2fe6bdcd9f/images/5d96c7b2-65ce-f544-f726-488be7e936d3.png")
+                  div(class="perex mt60")
+                    h2(class="section-header black") princip
+                    p(class="primary") Kornfeil Deodorant je zařízení na čištění odtahové páry a rekuperaci tepla, které využívá jinak nevyužitou odpadní energii pekárny na maximum.
+                    p(class="mt30") Zároveň eliminuje typický zápach pekáren, který dosud bránil výstavbě nový projektů v městských aglomeracích.
+          table(class="mt60")
+            tbody
+              each icon in icons 
+                tr.icon 
+                  td.va-c
+                    img(src= icon.fileName, class="mr10")
+                  td.va-c
+                    h3.primary= icon.header
+                    p.mt10= icon.paragraph 
+        table(class="cta")
+          tbody 
+            tr 
+              td.p50
+                h3 #{cta.header}
+                p(class="perex mt30") #{cta.perex}
+                a(class="btn mt30", href="https://kornfeildeo.com") #{cta.btnLabel}
+        table(class="eco")
+          tbody 
+            tr 
+              td.p50 
+                each p in eco.perex
+                  p(class="perex white") #{p}
+        table(class="footer")
+          tbody
+            tr
+              td(class="va-t p50")
+                a(href="https://kornfeildeo.com") 
+                  img(src="https://mcusercontent.com/06db183f8c0ab3c2fe6bdcd9f/images/f892a241-ca3e-4bde-bba3-00340c20eb21.png", class="claim mb50")
+              td(class="va-t p50")
+                div.socials
+                  a(href="https://facebook.com/kornfeilcz")
+                    img(src="https://mcusercontent.com/06db183f8c0ab3c2fe6bdcd9f/images/3410e6b5-8fc3-8064-4106-7823d0308da3.png", class="mr5")
+                  a(href="https://instagram.com/kornfeil_bakeryovens")                  
+                    img(src="https://mcusercontent.com/06db183f8c0ab3c2fe6bdcd9f/images/0fd847a6-0460-8d3f-a164-5083e78800b2.png")
+            tr 
+              td(colspan="2", class="p50 pb30 pt0 bb")
+                a(class="link link-big", href="https://kornfeildeo.com") www.kornfeildeo.com
+                a(class="link link-big mt10 mb30", href="https://kornfeil.com") www.kornfeil.com
+            tr
+              td(class="p50 pt30")
+                div
+                  a(class="link", href="*|UNSUB|*") Odhlásit z odběru newsletterů 
