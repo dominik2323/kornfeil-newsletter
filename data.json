@@ -1,34 +1,24 @@
 {
   "icons": [
     {
-      "fileName": "https://mcusercontent.com/06db183f8c0ab3c2fe6bdcd9f/images/c809ee05-1d82-f2c1-a506-34415076a50b.png",
-      "header": "Rekuperace tepla",
-      "paragraph": "Během procesu pečení vzniká obrovské množství energie, které je možné následně znovu využít."
+      "fileName": "/images/flame.svg",
+      "header": "Levnější zdroje energie",
+      "paragraph": "K vyhřívání termooleje můžeme využít štěpky nebo pelety, které jsou řádově levnější než fosilní paliva"
     },
     {
-      "fileName": "https://mcusercontent.com/06db183f8c0ab3c2fe6bdcd9f/images/55c2edce-e0bc-e118-c054-e932ec53386a.png",
-      "header": "Čištění vzduchu a eliminace zápachu z pece",
-      "paragraph": "Eliminace typického zápachu pekárny"
+      "fileName": "/images/auto.svg",
+      "header": "Automatické čištění kotle",
+      "paragraph": "Zapomeňte na likvidaci zbytkového odpadu, kotel BioTherm udělá vše za vás."
     },
     {
-      "fileName": "https://mcusercontent.com/06db183f8c0ab3c2fe6bdcd9f/images/b87a5dbb-7cf4-e521-1f2b-aa1352b86890.png",
-      "header": "Ochrana životního prostředí",
-      "paragraph": "Díky odstranění organických látek z odtahové páry odchází z pekárny pouze teplý a vlhký vzduch, který nezatěžuje životní prostředí."
+      "fileName": "/images/controls.svg",
+      "header": "Ovládání",
+      "paragraph": "Přehledný dotykový display vám pomůže s nastavením všech parametrů a sledováním samotného procesu spalování i provozních ukazatelů."
     },
     {
       "fileName": "https://mcusercontent.com/06db183f8c0ab3c2fe6bdcd9f/images/5f7dde79-71ad-6122-e10b-1fa6e21fd260.png",
-      "header": "Přirozené napojení do stávající infrastruktury",
-      "paragraph": "Zařízení Kornfeil DEODORANT lze napojit na libovolnou pásovou pec."
-    },
-    {
-      "fileName": "https://mcusercontent.com/06db183f8c0ab3c2fe6bdcd9f/images/ebd5a50e-b37a-b967-25d2-5437068c0286.png",
-      "header": "Řešení na míru Vaší pekárně",
-      "paragraph": "Každý energetický projekt zpracujeme individuálně."
-    },
-    {
-      "fileName": "https://mcusercontent.com/06db183f8c0ab3c2fe6bdcd9f/images/1dab33e0-cf55-6150-6a7b-2632a6f32415.png",
-      "header": "Pekárna s jedním komínem",
-      "paragraph": "Díky napojení celého energetického systému do zařízení Kornfeil DEODORANT pekárna potřebuje pouze jeden odtahový komín."
+      "header": "Kompabilita se zařízením EkoBlok",
+      "paragraph": "Při instalaci společně se zařízením EkoBlok, získate zpět 20-30% vaší vstupní energie. Tyto tepelné zroje můžete využít například k topným, nebo chladícím účelům."
     }
   ],
   "eco": {
@@ -39,8 +29,8 @@
     "btnLabel": "Zjistit více"
   },
   "cta": {
-    "header": "Zjistěte, kolik můžete ušetřit",
-    "perex": "Pro získání nabídky kontaktujte naše obchodní zástupce, kteří s Vámi proberou všechny detaily.",
-    "btnLabel": "Zjistit úsporu"
+    "header": "Kontaktujte nás",
+    "perex": "Zdarma pro vás vypracujeme energetickou kalkulaci a probereme s vámi všechny detaily.",
+    "btnLabel": "Kontaktovat"
   }
 }
