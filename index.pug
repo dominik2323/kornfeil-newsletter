@@ -10,18 +10,18 @@ html(lang="en")
   body 
     div.layout
       div.body
-        table.hero
+        table(class="hero", style=`background-image: url('${api_url}/images/biotherm-hero.png');`)
           tbody
             tr 
               td(class="va-t")
                 a(href="https://kornfeil.cz", target="_blank")
-                  img(src="https://mcusercontent.com/06db183f8c0ab3c2fe6bdcd9f/images/ba385edb-21f2-4eda-7710-451061191979.png", class="hero-logo")
+                  img(src=`${api_url}/images/logo.png`, class="hero-logo")
               td.va-t
                 div.socials
                   a(href="https://facebook.com/kornfeilcz", target="_blank")
-                    img(src="https://mcusercontent.com/06db183f8c0ab3c2fe6bdcd9f/images/3410e6b5-8fc3-8064-4106-7823d0308da3.png", class="mr5")
+                    img(src=`${api_url}/images/fcb.svg`, class="mr5")
                   a(href="https://instagram.com/kornfeil_bakeryovens", target="_blank")                  
-                    img(src="https://mcusercontent.com/06db183f8c0ab3c2fe6bdcd9f/images/0fd847a6-0460-8d3f-a164-5083e78800b2.png")
+                    img(src=`${api_url}/images/insta.svg`)
             tr 
               td(colspan="2", class="va-b")
                 span KORNFEIL BIOTHREM
@@ -52,7 +52,7 @@ html(lang="en")
             tbody
               tr 
                 td 
-                  img(src="./images/biotherm-schema.png" style="object-fit: contain;")
+                  img(src=`${api_url}/images/biotherm-schema.png` style="object-fit: contain;")
                   div(class="perex mt60")
                     h2(class="section-header black") princip
                     p(class="primary") Termoolejový kotel BioTherm je ekologickou alternativou, která místo fosilních paliv využívá zbytkový přírodní materiál. Kotel tak můžete vytápět například pomocí štěpek nebo pelet.
@@ -64,7 +64,7 @@ html(lang="en")
               each icon in icons 
                 tr.icon 
                   td.va-c
-                    img(src= icon.fileName, class="mr10", style="object-fit: contain;")
+                    img(src=`${api_url}/${icon.fileName}`, class="mr10", style="object-fit: contain;")
                   td.va-c
                     h3.primary= icon.header
                     p.mt10= icon.paragraph 
@@ -86,13 +86,13 @@ html(lang="en")
             tr
               td(class="va-t p50")
                 a(href="https://kornfeildeo.com", target="_blank") 
-                  img(src="https://mcusercontent.com/06db183f8c0ab3c2fe6bdcd9f/images/f892a241-ca3e-4bde-bba3-00340c20eb21.png", class="claim mb50")
+                  img(src=`${api_url}/images/claim.svg`, class="claim mb50")
               td(class="va-t p50")
                 div.socials
                   a(href="https://facebook.com/kornfeilcz", target="_blank")
-                    img(src="https://mcusercontent.com/06db183f8c0ab3c2fe6bdcd9f/images/3410e6b5-8fc3-8064-4106-7823d0308da3.png", class="mr5")
+                    img(src=`${api_url}/images/fcb.svg`, class="mr5")
                   a(href="https://instagram.com/kornfeil_bakeryovens", target="_blank")                  
-                    img(src="https://mcusercontent.com/06db183f8c0ab3c2fe6bdcd9f/images/0fd847a6-0460-8d3f-a164-5083e78800b2.png")
+                    img(src=`${api_url}/images/insta.svg`)
             tr 
               td(colspan="2", class="p50 pb30 pt0 bb")
                 //- a(class="link link-big", href="https://kornfeildeo.com") www.kornfeildeo.com

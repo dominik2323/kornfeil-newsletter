@@ -1,0 +1,24 @@
+{
+  "name": "code",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "pug -w -O data.json index.pug",
+    "inline-css": "node inlineCss.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dominik2323/kornfeil-newsletter.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/dominik2323/kornfeil-newsletter/issues"
+  },
+  "homepage": "https://github.com/dominik2323/kornfeil-newsletter#readme",
+  "dependencies": {
+    "inline-css": "^3.0.0"
+  }
+}
