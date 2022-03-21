@@ -1,17 +1,17 @@
 {
   "icons": [
     {
-      "fileName": "/images/flame.svg",
+      "fileName": "./images/flame.svg",
       "header": "Levnější zdroje energie",
       "paragraph": "K vyhřívání termooleje můžeme využít štěpky nebo pelety, které jsou řádově levnější než fosilní paliva"
     },
     {
-      "fileName": "/images/auto.svg",
+      "fileName": "./images/auto.svg",
       "header": "Automatické čištění kotle",
       "paragraph": "Zapomeňte na likvidaci zbytkového odpadu, kotel BioTherm udělá vše za vás."
     },
     {
-      "fileName": "/images/controls.svg",
+      "fileName": "./images/controls.svg",
       "header": "Ovládání",
       "paragraph": "Přehledný dotykový display vám pomůže s nastavením všech parametrů a sledováním samotného procesu spalování i provozních ukazatelů."
     },

@@ -35,7 +35,7 @@ html(lang="en")
                     h2(class="section-header primary") Termoolejový kotel BioTherm
                     p.perex Zbavte se závislosti na fosilních palivech a jejich rostoucích cenách.
                     p.perex Ušetřete až 40% nákládů na vytápění vašich pecí
-                    a(class="btn", href="https://kornfeildeo.com", target="_blank") Přejít na produkt
+                    a(class="btn", href="https://www.kornfeil.cz/produkty/vytapeni-pekarskych-peci/biotherm/", target="_blank") Přejít na produkt
           //- table(class="number mt60")
           //-   tbody
           //-     tr 
@@ -52,7 +52,7 @@ html(lang="en")
             tbody
               tr 
                 td 
-                  img(src="/images/biotherm-schema.png")
+                  img(src="./images/biotherm-schema.png" style="object-fit: contain;")
                   div(class="perex mt60")
                     h2(class="section-header black") princip
                     p(class="primary") Termoolejový kotel BioTherm je ekologickou alternativou, která místo fosilních paliv využívá zbytkový přírodní materiál. Kotel tak můžete vytápět například pomocí štěpek nebo pelet.
@@ -64,7 +64,7 @@ html(lang="en")
               each icon in icons 
                 tr.icon 
                   td.va-c
-                    img(src= icon.fileName, class="mr10")
+                    img(src= icon.fileName, class="mr10", style="object-fit: contain;")
                   td.va-c
                     h3.primary= icon.header
                     p.mt10= icon.paragraph 
@@ -74,7 +74,7 @@ html(lang="en")
               td.p50
                 h3 #{cta.header}
                 p(class="perex mt30") #{cta.perex}
-                a(class="btn mt30", href="https://kornfeil.cz", target="_blank") #{cta.btnLabel}
+                a(class="btn mt30", href="https://www.kornfeil.cz/kontakt/", target="_blank") #{cta.btnLabel}
         //- table(class="eco")
         //-   tbody 
         //-     tr 
