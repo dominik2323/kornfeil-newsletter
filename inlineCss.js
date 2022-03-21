@@ -9,7 +9,7 @@ fs.readFile("index.html", "utf8", (err, data) => {
 
   inlineCss(data, { url: `file://${__dirname}/` })
     .then(function (html) {
-      console.log(html);
+      console.log("build done");
       fs.writeFile("index.inlined-css.html", html, (err) => {
         console.log(err);
       });
