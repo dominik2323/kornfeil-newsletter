@@ -4,7 +4,7 @@
     {
       "fileName": "images/flame.svg",
       "header": "Levnější zdroje energie",
-      "paragraph": "K vyhřívání termooleje můžeme využít štěpky nebo pelety, které jsou řádově levnější než fosilní paliva"
+      "paragraph": "K vyhřívání termooleje můžeme využít štěpky nebo pelety, které jsou řádově levnější než fosilní paliva."
     },
     {
       "fileName": "images/auto.svg",
@@ -18,8 +18,8 @@
     },
     {
       "fileName": "images/napojeni.svg",
-      "header": "Kompabilita se zařízením EkoBlok",
-      "paragraph": "Při instalaci společně se zařízením EkoBlok, získate zpět 20-30% vaší vstupní energie. Tyto tepelné zroje můžete využít například k topným, nebo chladícím účelům."
+      "header": "Kompatibilita se zařízením EkoBlok",
+      "paragraph": "Při instalaci společně se zařízením EkoBlok, získáte zpět 20–30 % vaší vstupní energie. Tyto tepelné zdroje můžete využít například k topným, nebo chladícím účelům."
     }
   ],
   "eco": {
