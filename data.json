@@ -2,22 +2,22 @@
   "api_url": "https://cdn.jsdelivr.net/gh/dominik2323/kornfeil-newsletter@biotherm",
   "icons": [
     {
-      "fileName": "images/flame.svg",
+      "fileName": "images/flame.png",
       "header": "Levnější zdroje energie",
       "paragraph": "K vyhřívání termooleje můžeme využít štěpky nebo pelety, které jsou řádově levnější než fosilní paliva."
     },
     {
-      "fileName": "images/auto.svg",
+      "fileName": "images/auto.png",
       "header": "Automatické čištění kotle",
       "paragraph": "Zapomeňte na likvidaci zbytkového odpadu, kotel BioTherm udělá vše za vás."
     },
     {
-      "fileName": "images/controls.svg",
+      "fileName": "images/controls.png",
       "header": "Ovládání",
       "paragraph": "Přehledný dotykový display vám pomůže s nastavením všech parametrů a sledováním samotného procesu spalování i provozních ukazatelů."
     },
     {
-      "fileName": "images/napojeni.svg",
+      "fileName": "images/napojeni.png",
       "header": "Kompatibilita se zařízením EkoBlok",
       "paragraph": "Při instalaci společně se zařízením EkoBlok, získáte zpět 20–30 % vaší vstupní energie. Tyto tepelné zdroje můžete využít například k topným, nebo chladícím účelům."
     }
