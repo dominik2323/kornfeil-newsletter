@@ -1,9 +1,9 @@
 /* perex */
 .perex h2 {
-  margin-bottom: 30px;
+  margin-bottom: 30px !important;
 }
 .perex .btn {
-  margin-top: 30px;
+  margin-top: 30px !important;
 }
 
 /* number */
@@ -32,7 +32,7 @@
   max-width: 80%;
 }
 .icon td:nth-child(2) {
-  padding: 30px 0;
+  padding: 30px 0 !important;
 }
 
 /* link */
