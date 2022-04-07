@@ -3,28 +3,28 @@
   "icons": [
     {
       "fileName": "images/flame.png",
-      "header": "Billigere Energiequellen",
-      "paragraph": "Zu Beheizung von Thermoöl verwenden Sie Hackschnitzel oder Pellets, die viel billiger sind als die fossilen Brennstoffe."
+      "header": "Cheaper energy sources",
+      "paragraph": "To heat the thermo-oil ovens we can use wood chips or pellets, which are orders of magnitude cheaper than fossil fuels"
     },
     {
       "fileName": "images/auto.png",
-      "header": "Automatische Reinigung von Kessel",
-      "paragraph": "Vergessen Sie die Entsorgung von Restmüll, der BioTherm Kessel macht das für Sie selbst."
+      "header": "Automatic boiler cleaning",
+      "paragraph": "Forget about disposing of residual waste, the BioTherm boiler does it all for you."
     },
     {
       "fileName": "images/controls.png",
-      "header": "Steuerung",
-      "paragraph": "Ein übersichtlicher Touchpanel hilft Ihnen mit der Einstellung von den Betriebsparameter und Steuerung vom ganzen Verbrennungsprozess."
+      "header": "Controls",
+      "paragraph": "The clear touch screen display helps you to set all parameters and monitor the combustion process and operating indicators."
     },
     {
       "fileName": "images/napojeni.png",
-      "header": "Kompatibilität mit der Abfallwärmerückgewinnungsanlage EkoBlok",
-      "paragraph": "Bei der Installation mit EkoBlok, gewinnen Sie zurück 20-30% von der Eingangsenergie. Diese Heizquellen können Sie für die Heiz- oder Kühlzwecke verwenden."
+      "header": "Compatibility with EkoBlok",
+      "paragraph": "When installed together with the EkoBlok, you will recover 20-30% of your input energy. You can use these heat sources for heating or cooling purposes, for example."
     }
   ],
   "cta": {
-    "header": "Wenden Sie sich an uns",
-    "perex": "Wir berechnen Ihre Energiekalkulation gratis und gehen alle Punkte mit Ihnen durch.",
-    "btnLabel": "Kontaktieren Sie"
+    "header": "Contact us",
+    "perex": "We will prepare a free energy calculation for you and discuss all the details with you.",
+    "btnLabel": "Contact us"
   }
 }
