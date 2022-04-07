@@ -1,5 +1,5 @@
 {
-  "api_url": "https://cdn.jsdelivr.net/gh/dominik2323/kornfeil-newsletter@biotherm",
+  "api_url": "https://cdn.jsdelivr.net/gh/dominik2323/kornfeil-newsletter@biotherm-en",
   "icons": [
     {
       "fileName": "images/flame.png",
@@ -22,16 +22,9 @@
       "paragraph": "Bei der Installation mit EkoBlok, gewinnen Sie zurück 20-30% von der Eingangsenergie. Diese Heizquellen können Sie für die Heiz- oder Kühlzwecke verwenden."
     }
   ],
-  "eco": {
-    "perex": [
-      "I vaše pekárna může být ekologická",
-      "Konec neefektivnímu plýtvání nevyužité energie"
-    ],
-    "btnLabel": "Zjistit více"
-  },
   "cta": {
     "header": "Wenden Sie sich an uns",
     "perex": "Wir berechnen Ihre Energiekalkulation gratis und gehen alle Punkte mit Ihnen durch.",
-    "btnLabel": "Kontaktovat"
+    "btnLabel": "Kontaktieren Sie"
   }
 }
