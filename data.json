@@ -3,23 +3,23 @@
   "icons": [
     {
       "fileName": "images/flame.png",
-      "header": "Levnější zdroje energie",
-      "paragraph": "K vyhřívání termooleje můžeme využít štěpky nebo pelety, které jsou řádově levnější než fosilní paliva."
+      "header": "Billigere Energiequellen",
+      "paragraph": "Zu Beheizung von Thermoöl verwenden Sie Hackschnitzel oder Pellets, die viel billiger sind als die fossilen Brennstoffe."
     },
     {
       "fileName": "images/auto.png",
-      "header": "Automatické čištění kotle",
-      "paragraph": "Zapomeňte na likvidaci zbytkového odpadu, kotel BioTherm udělá vše za vás."
+      "header": "Automatische Reinigung von Kessel",
+      "paragraph": "Vergessen Sie die Entsorgung von Restmüll, der BioTherm Kessel macht das für Sie selbst."
     },
     {
       "fileName": "images/controls.png",
-      "header": "Ovládání",
-      "paragraph": "Přehledný dotykový display vám pomůže s nastavením všech parametrů a sledováním samotného procesu spalování i provozních ukazatelů."
+      "header": "Steuerung",
+      "paragraph": "Ein übersichtlicher Touchpanel hilft Ihnen mit der Einstellung von den Betriebsparameter und Steuerung vom ganzen Verbrennungsprozess."
     },
     {
       "fileName": "images/napojeni.png",
-      "header": "Kompatibilita se zařízením EkoBlok",
-      "paragraph": "Při instalaci společně se zařízením EkoBlok, získáte zpět 20–30 % vaší vstupní energie. Tyto tepelné zdroje můžete využít například k topným, nebo chladícím účelům."
+      "header": "Kompatibilität mit der Abfallwärmerückgewinnungsanlage EkoBlok",
+      "paragraph": "Bei der Installation mit EkoBlok, gewinnen Sie zurück 20-30% von der Eingangsenergie. Diese Heizquellen können Sie für die Heiz- oder Kühlzwecke verwenden."
     }
   ],
   "eco": {
@@ -30,8 +30,8 @@
     "btnLabel": "Zjistit více"
   },
   "cta": {
-    "header": "Kontaktujte nás",
-    "perex": "Zdarma pro vás vypracujeme energetickou kalkulaci a probereme s vámi všechny detaily.",
+    "header": "Wenden Sie sich an uns",
+    "perex": "Wir berechnen Ihre Energiekalkulation gratis und gehen alle Punkte mit Ihnen durch.",
     "btnLabel": "Kontaktovat"
   }
 }

@@ -15,7 +15,7 @@ html(lang="en")
             tr 
               td(class="va-t")
                 a(href="https://kornfeil.cz", target="_blank")
-                  img(src=`${api_url}/images/logo.png`, class="hero-logo")
+                  img(src=`${api_url}/images/logo-trans.png`, class="hero-logo")
               td.va-t
                 div.socials
                   a(href="https://facebook.com/kornfeilcz", target="_blank")
@@ -25,17 +25,17 @@ html(lang="en")
             tr 
               td(colspan="2", class="va-b")
                 span KORNFEIL BIOTHERM
-                h1.page-header Zbavte se závislosti na fosilních palivech
+                h1.page-header Befreien Sie sich von Ihrer Abhängigkeit von fossilen Brennstoffen
         div(class="content p30")
           table.intro
             tbody
               tr 
                 td
                   div.perex
-                    h2(class="section-header primary") Termoolejový kotel BioTherm
-                    p.perex Zbavte se závislosti na fosilních palivech a jejich rostoucích cenách.
-                    p.perex Ušetřete až 70 % nákladů na vytápění vašich pecí.
-                    a(class="btn", href="https://www.kornfeil.cz/produkty/vytapeni-pekarskych-peci/biotherm/", target="_blank") Přejít na produkt
+                    h2(class="section-header primary") Thermoölkessel BioTherm
+                    p.perex Befreien Sie sich von Ihrer Abhängigkeit von fossilen Brennstoffen und von den steigenden Energiepreisen.
+                    p.perex Sparen Sie bis zu 70 % von Heizkosten für Ihre Thermoölöfen.
+                    a(class="btn", href="https://www.kornfeil.cz/produkty/vytapeni-pekarskych-peci/biotherm/", target="_blank") Weiter zum Produkt
           //- table(class="number mt60")
           //-   tbody
           //-     tr 
@@ -52,19 +52,19 @@ html(lang="en")
             tbody
               tr 
                 td 
-                  img(src=`${api_url}/images/biotherm-schema.png` style="object-fit: contain; height: auto;")
+                  img(src=`${api_url}/images/schema_biotherm_de.png` style="object-fit: contain; height: auto;")
                   div(class="perex mt60")
-                    h2(class="section-header black") princip
-                    p(class="primary") Termoolejový kotel BioTherm je ekologickou alternativou, která k vytápění termoolejových pecí využívá místo fosilních paliv zbytkový přírodní materiál. Kotel tak můžete vytápět například pomocí štěpek nebo pelet.
+                    h2(class="section-header black") Prinzipe
+                    p(class="primary") BioTherm Thermoölkessel ist eine ökologische Alternative, er nutzt natürliche Abfallstoffe als Energiequelle. Als Brennstoff für diesen Kessel können Sie Hackschnitzel und Pellets verwenden.
           table(class="mt60")
             tbody
               tr
                 td
-                  h2(class="section-header") Výhody 
+                  h2(class="section-header") Vorteile 
               each icon in icons 
                 tr.icon 
                   td.va-c
-                    img(src=`${api_url}/${icon.fileName}`, class="mr10", style="object-fit: contain;")
+                    img(src=`${api_url}/${icon.fileName}`, class="mr10")
                   td.va-c
                     h3.primary= icon.header
                     p.mt10= icon.paragraph 
@@ -100,4 +100,4 @@ html(lang="en")
             tr
               td(class="p50 pt30")
                 div
-                  a(class="link", href="*|UNSUB|*") Odhlásit z odběru newsletterů 
+                  a(class="link", href="*|UNSUB|*") Abmeldung von Newslettern
